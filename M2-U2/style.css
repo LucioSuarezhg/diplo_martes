@@ -1,0 +1,11 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 600px;
+}
