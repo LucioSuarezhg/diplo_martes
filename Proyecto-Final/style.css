@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.nav_container {
+    background-color: #333; /* Fondo del menú de navegación */
+    padding: 10px 20px; /* Espaciado interno */
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+/* Lista del menú */
+.nav_ul {
+    display: flex; /* Hace que los elementos estén en línea */
+    margin: 0 2em 0 2em;
+    gap: 1em;
+    padding: 0;
+    justify-content: flex-end; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los íconos y texto */
+}
+
+/* Elementos individuales del menú */
+.nav_ul_li {
+    display: flex; /* Para alinear íconos y texto en línea */
+    align-items: center; /* Centra los íconos verticalmente con el texto */
+    color: #fff; /* Color del texto */
+}
+
+/* Estilo para los enlaces */
+.nav_ul_li a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #fff; /* Color del texto */
+    margin-left: 8px; /* Espaciado entre el ícono y el texto */
+    font-size: 16px;
+}
+
+/* Estilo de los íconos */
+.nav_ul_li i {
+    font-size: 20px;
+}
+
+/* Hover en enlaces */
+.nav_ul_li a:hover {
+    color: #f78a8a; /* Cambia de color al pasar el ratón */
+}
+.nav_logo{
+    display: flex;
+}
+.nav_h1{
+    margin-left: 0.25em;
+    color: #ff0000;
+}
+.nav_logo_img{
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    margin: 0.25em;
+}
+i{
+    color: #ff0000;
+}
+
+.header_container{
+    height: 100%;
+    width: 100%;
+    background-color: #f78a8a;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.div_img{
+    border: 50%;
+    height: 20em;
+    width: 14em;
+    margin: 2em;
+    padding: 0%;
+    background-color: #ff0000;
+    box-shadow: 5px 5px 10px 0 #f9b8b8;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.div_item{
+    display: flex;
+    justify-content: center;
+}
+.img_item{
+    border: 50%;
+    height: 20em;
+    width: 14em;
+    padding: 0%;
+    background-color: #ff0000;
+    box-shadow: 5px 5px 10px 0 #f9b8b8;
+    border-radius: 1em;
+}
+.h_item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.div_img:hover{
+    border: 50%;
+    height: 20em;
+    width: 14em;
+    margin: 2em;
+    padding: 0%;
+    background-color: #ff0000;
+    box-shadow: 5px 5px 10px 0 #583c3c;
+    border-radius: 1em;
+    transform: scale(1.1);
+}
+.section_container{
+    height: 100%;
+    width: 100%;
+    background-color: #f6a2a2;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 0 0 0 #f78a8a;
+}
+.section_article{
+    margin: 2em;
+    height: 10em;
+    width: 100em;
+    background-color: #fff;
+    border-radius: 1em;
+}
+.footer_container{
+    height: 5em;
+    background-color: #583c3c;
+    display: flex;
+    justify-content: center;
+}
+.nav_ul{
+    display: flex; /* Hace que los elementos estén en línea */
+    margin: 0 2em 0 2em;
+    gap: 1em;
+    padding: 0;
+    justify-content: flex-end; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los íconos y texto */
+}
+.footer_ul_li{
+    font-size: 2em;
+}
