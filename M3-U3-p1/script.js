@@ -22,13 +22,17 @@
 
 let numeros = [];
 
-for (let i = 0; i < 10; i++){
-    numeros[i] = prompt ("Ingrese el numero " + (i+1));
+for (let i = 0; i < 10; i++) {
+    numeros[i] = parseInt(prompt("Ingrese el número " + (i + 1)));
+    // O puedes usar Number() en lugar de parseInt()
 }
+
 let numeromayor = numeros[0];
-for (let i = 1; i < 10; i++){
-    if (numeromayor < numeros[i]){
+
+for (let i = 1; i < numeros.length; i++) {
+    if (numeromayor < numeros[i]) {
         numeromayor = numeros[i];
     }
 }
-alert ("El numero mayor es: " + numeromayor);
+
+alert("El número mayor es: " + numeromayor);
